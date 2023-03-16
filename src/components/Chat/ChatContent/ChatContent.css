@@ -1,0 +1,6 @@
+.main-content-gg {
+    /* width: calc(100vw - 240px); */
+    width: calc(100vw - 320px);
+    overflow-y: scroll;
+    scrollbar-color: rgb(30, 31, 34) #2b2d31;
+}

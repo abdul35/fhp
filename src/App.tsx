@@ -1,11 +1,17 @@
-// import reactLogo from './assets/react.svg'
+import Chat from "./components/Chat/Chat"
+import Guilds from "./components/Guilds/Guilds"
+import Sidebar from "./components/Sidebar/Sidebar"
 
-function App() {
+const App = (): JSX.Element => {
 
   return (
     <div className="App">
-      <div className="container mx-auto">
-
+      <div className="">
+        <main className="main">
+          <Guilds />
+          <Sidebar />
+          <Chat />
+        </main>
       </div>
     </div>
   )

@@ -1,0 +1,61 @@
+.chat-members-wrap {
+  min-width: 240px;
+  height: calc(100vh - 48px);
+  background-color: #2b2d31;
+  overflow:hidden;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  max-width: 224px;
+  margin-left: 8px;
+  padding: 0 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 42px;
+}
+
+.member:hover {
+  background-color: rgba(78, 80, 88, 0.6);
+}
+
+.member:hover > .member-name {
+  color: rgb(219, 222, 225);
+}
+
+.member-img {
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: 12px;
+  object-fit: cover;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.member-name {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+}
+
+.offline-member > .member-name {
+  color: #9299a296;
+}
+
+.members-group {
+  color: rgb(148, 155, 164);
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 24px 8px 0 16px;
+}
+
+/* .online-member > .member-name:hover {
+  
+} */
+
+.online-member > .member-name {
+  color: rgb(148, 155, 164);
+}
