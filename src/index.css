@@ -124,7 +124,7 @@ button:focus-visible {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: border-radius 0.2s, background-color 0.2s;
+  transition: border-radius 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 .item-wrap:hover {

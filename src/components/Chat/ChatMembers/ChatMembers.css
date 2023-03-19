@@ -40,8 +40,13 @@
   line-height: 20px;
 }
 
-.offline-member > .member-name {
+.offline-member {
   color: #9299a296;
+  opacity: .6;
+}
+
+.offline-member:hover {
+  opacity: 1;
 }
 
 .members-group {
